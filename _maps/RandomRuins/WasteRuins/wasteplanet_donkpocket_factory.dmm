@@ -1489,16 +1489,21 @@
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Pw" = (
-/obj/machinery/oven{
-	subsystem_type = s/datum/controller/subsystem/machines
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_y = 7
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "Py" = (
-/obj/machinery/power/port_gen/pacman,
+/obj/machinery/power/port_gen/pacman{
+	sheet_left = 1;
+	anchored = 1;
+	sheets = 10
+	},
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
