@@ -27,3 +27,9 @@
 	description = "A military base formerly used for staging 4 exosuits and crew. God knows what's in it now."
 	id = "abandoned_mechbay"
 	suffix = "wasteplanet_abandoned_mechbay.dmm"
+
+/datum/map_template/ruin/wasteplanet/donkpocket_factory
+	name= "Donk Pocket Factory"
+	description = "The ruins of a Donk Co. Donk Pocket factory. Selected for the cheap real estate- this doesn't look like it went well."
+	id = "donkpocket_factory"
+	suffix = "wasteplanet_donkpocket_factory.dmm"
