@@ -324,6 +324,19 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
+"iY" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 8;
+	id = "donkfield"
+	},
+/obj/structure/cable{
+	icon_state = "0-10"
+	},
+/obj/machinery/door/poddoor{
+	id = "donkloading"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "jy" = (
 /obj/structure/chair/comfy/orange/corpo{
 	dir = 1;
@@ -415,6 +428,12 @@
 /obj/structure/cable/yellow,
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
+"mo" = (
+/obj/machinery/door/poddoor{
+	id = "donkloading"
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "mI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
@@ -466,6 +485,24 @@
 "oq" = (
 /obj/structure/chair/sofa/brown/corpo/right,
 /turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
+"os" = (
+/obj/machinery/button/door{
+	dir = 4;
+	id = "donkloading";
+	name = "blast door control";
+	pixel_x = -20;
+	pixel_y = 7;
+	desc = "A switch for the factory loading dock doors."
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 4;
+	id = "donkssssfield";
+	pixel_x = -19;
+	pixel_y = -2;
+	desc = "A remote switch for a holofield gsssenerator"
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "oO" = (
 /obj/machinery/conveyor{
@@ -583,6 +620,15 @@
 /turf/open/floor/carpet{
 	icon_state = "carpet-21"
 	},
+/area/ruin/wasteplanet)
+"sy" = (
+/obj/structure/cable{
+	icon_state = "2-5"
+	},
+/obj/structure/cable{
+	icon_state = "2-9"
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "sz" = (
 /obj/structure/cable/yellow{
@@ -735,7 +781,9 @@
 /area/ruin/wasteplanet)
 "xt" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/smes,
+/obj/machinery/power/smes{
+	charge = 1
+	},
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
@@ -807,11 +855,22 @@
 /obj/effect/turf_decal/industrial/outline,
 /obj/structure/closet/cardboard,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
+/obj/effect/spawner/lootdrop/donkpockets{
+	pixel_x = 4;
+	pixel_y = 4
+	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"zw" = (
+/obj/effect/spawner/lootdrop/donkpockets,
+/obj/structure/safe/floor,
+/obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/magazine/co9mm,
+/turf/open/floor/plasteel/mono/dark,
 /area/ruin/wasteplanet)
 "zD" = (
 /obj/machinery/conveyor{
@@ -874,6 +933,19 @@
 "Bf" = (
 /obj/structure/table,
 /turf/open/floor/carpet,
+/area/ruin/wasteplanet)
+"Bp" = (
+/obj/structure/cable{
+	icon_state = "0-6"
+	},
+/obj/machinery/door/poddoor{
+	id = "donkloading"
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 4;
+	id = "donkfield"
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "BA" = (
 /obj/structure/chair/plastic{
@@ -972,13 +1044,16 @@
 /obj/effect/turf_decal/industrial/outline,
 /obj/structure/closet/cardboard,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/light/directional/east,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
+	},
+/obj/effect/spawner/lootdrop/donkpockets{
+	pixel_x = 4;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -1344,6 +1419,19 @@
 	},
 /turf/open/floor/plating/asteroid/wasteplanet,
 /area/ruin/wasteplanet)
+"LT" = (
+/obj/effect/turf_decal/industrial/outline,
+/obj/structure/closet/cardboard,
+/obj/effect/spawner/lootdrop/donkpockets,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/lootdrop/donkpockets{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "LW" = (
 /obj/structure/table/wood/reinforced,
 /obj/machinery/microwave,
@@ -1494,7 +1582,8 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/microwave{
-	pixel_y = 7
+	pixel_y = 7;
+	desc = "Are you telling me all these donk pockets were pre-heated??"
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
@@ -1502,7 +1591,8 @@
 /obj/machinery/power/port_gen/pacman{
 	sheet_left = 1;
 	anchored = 1;
-	sheets = 10
+	sheets = 10;
+	active = 1
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
@@ -1623,10 +1713,13 @@
 /obj/effect/turf_decal/industrial/outline,
 /obj/structure/closet/cardboard,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/light/directional/east,
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/effect/spawner/lootdrop/donkpockets{
+	pixel_x = 4;
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -1698,6 +1791,9 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "SH" = (
@@ -1777,10 +1873,10 @@
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Tv" = (
-/obj/structure/safe,
 /obj/effect/spawner/lootdrop/donkpockets,
+/obj/structure/safe,
 /obj/item/ammo_box/a12g,
-/obj/item/gun/ballistic/shotgun/doublebarrel/beacon/no_mag,
+/obj/item/gun/ballistic/shotgun/doublebarrel/presawn,
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "TX" = (
@@ -1871,11 +1967,6 @@
 /area/ruin/wasteplanet)
 "WR" = (
 /obj/structure/chair/comfy/orange/corpo/directional/east,
-/obj/structure/safe/floor,
-/obj/item/gun/ballistic/automatic/pistol/commander/no_mag,
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/magazine/co9mm,
-/obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-0"
 	},
@@ -2592,10 +2683,10 @@ Hy
 fw
 fw
 fw
-fE
-fE
-fE
-zv
+Bp
+os
+NU
+LT
 fE
 LK
 zv
@@ -2625,13 +2716,13 @@ Hy
 fw
 fw
 fw
-fE
-fE
-fE
-zv
+mo
+sy
+dB
+LT
 LK
 fE
-zv
+LT
 jE
 dI
 fk
@@ -2644,7 +2735,7 @@ zK
 zK
 dB
 VT
-Mo
+zw
 Mo
 fE
 An
@@ -2658,7 +2749,7 @@ Hy
 fw
 fw
 fw
-fE
+iY
 fE
 fE
 RC
