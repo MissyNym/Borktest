@@ -10,6 +10,12 @@
 	icon_state = "carpet-110"
 	},
 /area/ruin/wasteplanet)
+"aA" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/wasteplanet)
 "aE" = (
 /obj/machinery/conveyor{
 	dir = 10
@@ -22,6 +28,12 @@
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-12"
 	},
+/area/ruin/wasteplanet)
+"aV" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "bc" = (
 /obj/machinery/conveyor{
@@ -43,7 +55,7 @@
 /area/ruin/wasteplanet)
 "bW" = (
 /obj/structure/cable{
-	icon_state = "2-4"
+	icon_state = "4-8"
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -54,7 +66,19 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
+/area/ruin/wasteplanet)
+"cl" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "cp" = (
 /obj/effect/gibspawner/generic/animal,
@@ -70,11 +94,35 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "cy" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/plasteel/dark,
+/area/ruin/wasteplanet)
+"cC" = (
+/obj/structure/toilet{
+	dir = 8;
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
+"cF" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "cQ" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -96,14 +144,19 @@
 	},
 /area/ruin/wasteplanet)
 "dn" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
+"dv" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "dw" = (
 /obj/machinery/conveyor{
@@ -120,27 +173,13 @@
 /area/ruin/wasteplanet)
 "dG" = (
 /obj/machinery/door/window/eastright,
-/obj/machinery/door/window/eastleft,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 4
+	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "dI" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/wasteplanet)
-"dZ" = (
-/obj/effect/turf_decal/industrial/warning,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/wasteplanet)
-"ef" = (
-/obj/effect/turf_decal/industrial/warning,
-/obj/machinery/light/directional/north,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "en" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -150,10 +189,25 @@
 /area/ruin/wasteplanet)
 "ev" = (
 /obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
 	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"ex" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"ez" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -162,15 +216,16 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/wasteplanet)
 "eX" = (
 /turf/closed/wall/r_wall/rust,
+/area/ruin/wasteplanet)
+"eY" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2,
+/turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "fk" = (
 /obj/structure/cable{
@@ -178,16 +233,26 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
-"fv" = (
-/obj/item/ammo_casing/shotgun/buckshot{
-	icon_state = "buckshot-empty";
-	pixel_x = -9;
-	pixel_y = -5
+"fw" = (
+/turf/closed/mineral/random/wasteplanet,
+/area/ruin/wasteplanet)
+"fx" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 1
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
-"fw" = (
-/turf/closed/mineral/random/wasteplanet,
+"fy" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
 "fE" = (
 /turf/open/floor/plasteel,
@@ -195,9 +260,6 @@
 "fG" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "gc" = (
@@ -210,6 +272,12 @@
 /obj/item/reagent_containers/food/snacks/donkpocket/teriyaki{
 	pixel_x = 3;
 	pixel_y = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
@@ -224,16 +292,29 @@
 /obj/structure/sign/poster/contraband/robustmore_drinkfoods,
 /turf/closed/wall/r_wall/rust,
 /area/ruin/wasteplanet)
+"gx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
 "gK" = (
 /obj/structure/chair/sofa/brown/corpo,
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "gM" = (
 /obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
 	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -245,6 +326,10 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "hc" = (
@@ -254,15 +339,7 @@
 /area/ruin/wasteplanet)
 "he" = (
 /obj/machinery/light/dim/directional/east,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "hv" = (
@@ -271,8 +348,17 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"hH" = (
 /obj/structure/cable{
-	icon_state = "1-8"
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -283,6 +369,18 @@
 	icon_state = "donk_carpet-63"
 	},
 /area/ruin/wasteplanet)
+"hZ" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "ig" = (
 /obj/machinery/door/airlock/public/glass{
 	dir = 4
@@ -290,7 +388,13 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating/asteroid/wasteplanet,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "ij" = (
 /obj/structure/chair/plastic{
@@ -298,16 +402,24 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
+"il" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "io" = (
 /obj/effect/turf_decal/industrial/warning/corner,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /obj/effect/decal/cleanable/sprayweb,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "iE" = (
 /obj/machinery/door/airlock/maintenance,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "iW" = (
@@ -322,6 +434,12 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "iY" = (
@@ -336,6 +454,13 @@
 	id = "donkloading"
 	},
 /turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"jb" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "jy" = (
 /obj/structure/chair/comfy/orange/corpo{
@@ -356,17 +481,18 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "jP" = (
-/obj/structure/toilet{
-	dir = 8;
-	pixel_y = 4;
-	pixel_x = 5
-	},
 /obj/machinery/light/directional/north,
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
@@ -377,11 +503,42 @@
 "kj" = (
 /obj/machinery/light/directional/east,
 /obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"ky" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/wasteplanet)
+"kF" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"kY" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -414,13 +571,38 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
 /turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"lZ" = (
+/obj/structure/fence/door,
+/turf/open/floor/plating/asteroid/wasteplanet,
+/area/ruin/wasteplanet)
+"mf" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "mi" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/closet/firecloset/wall/directional/south,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "mm" = (
@@ -449,16 +631,35 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
-"na" = (
-/obj/item/ammo_casing/shotgun/buckshot{
-	icon_state = "buckshot-empty";
-	pixel_x = -8;
-	pixel_y = 12
+"mP" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 4
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"nc" = (
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-8"
 	},
-/turf/open/floor/wood/waste,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"nj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "ns" = (
 /obj/effect/turf_decal/industrial/loading{
@@ -473,13 +674,7 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "od" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /obj/machinery/light/directional/north,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "oq" = (
@@ -497,7 +692,7 @@
 	},
 /obj/machinery/button/shieldwallgen{
 	dir = 4;
-	id = "donkssssfield";
+	id = "donkfield";
 	pixel_x = -19;
 	pixel_y = -2;
 	desc = "A remote switch for a holofield gsssenerator"
@@ -527,6 +722,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "pq" = (
@@ -536,7 +737,7 @@
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable/yellow{
-	icon_state = "1-8"
+	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
@@ -544,6 +745,12 @@
 /obj/structure/table/wood/reinforced,
 /obj/item/modular_computer/laptop/preset,
 /turf/open/floor/plasteel/mono/dark,
+/area/ruin/wasteplanet)
+"pD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "pW" = (
 /turf/open/floor/plasteel/tech,
@@ -559,9 +766,6 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-11"
 	},
@@ -575,7 +779,9 @@
 /obj/item/ammo_casing/shotgun/buckshot{
 	icon_state = "buckshot-empty";
 	pixel_y = -7;
-	pixel_x = 6
+	pixel_x = 6;
+	projectile_type = null;
+	desc = "A 12-gauge buckshot shell. It is spent."
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -583,8 +789,14 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -593,22 +805,35 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
+"rF" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "rU" = (
 /obj/machinery/light/directional/west,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "rX" = (
 /obj/machinery/light/directional/south,
 /obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -640,12 +865,24 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "sL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/firecloset/wall/directional/south,
 /turf/open/floor/plasteel/tech,
+/area/ruin/wasteplanet)
+"tc" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "ts" = (
 /obj/effect/turf_decal/industrial/caution{
@@ -656,6 +893,12 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
@@ -671,6 +914,22 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"uM" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "vu" = (
@@ -680,9 +939,6 @@
 	},
 /area/ruin/wasteplanet)
 "vz" = (
-/obj/machinery/door/airlock/grunge{
-	dir = 4
-	},
 /obj/machinery/door/airlock/grunge{
 	dir = 4
 	},
@@ -716,24 +972,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
-"vW" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plasteel,
-/area/ruin/wasteplanet)
 "vY" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -765,7 +1015,13 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plating/asteroid/wasteplanet,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "xk" = (
 /obj/structure/table,
@@ -782,16 +1038,20 @@
 "xt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/smes{
-	charge = 1
+	charge = 1.5e+006;
+	input_available = 40000;
+	output_used = 40000
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "xx" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -800,10 +1060,13 @@
 "xT" = (
 /obj/machinery/light/dim/directional/north,
 /obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -837,6 +1100,12 @@
 /area/ruin/wasteplanet)
 "zp" = (
 /obj/structure/closet/emcloset/wall/directional/west,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "zs" = (
@@ -849,6 +1118,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "zv" = (
@@ -858,9 +1130,6 @@
 /obj/effect/spawner/lootdrop/donkpockets{
 	pixel_x = 4;
 	pixel_y = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -883,34 +1152,59 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "zL" = (
-/obj/structure/closet/emcloset/wall/directional/south,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "An" = (
 /obj/structure/sign/poster/official/fruit_bowl,
 /turf/closed/wall/rust,
 /area/ruin/wasteplanet)
-"AA" = (
-/obj/structure/toilet{
-	dir = 8;
-	pixel_y = 4;
-	pixel_x = 5
-	},
-/obj/machinery/light/directional/south,
+"Ap" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"AA" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/atmospherics/components/unary/tank/air,
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "AH" = (
-/obj/machinery/door/airlock/grunge,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/airlock/grunge,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
+/area/ruin/wasteplanet)
+"AU" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Ba" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -918,6 +1212,12 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -981,6 +1281,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
+"Cj" = (
+/obj/structure/fence/cut/large{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/wasteplanet,
+/area/ruin/wasteplanet)
 "Cm" = (
 /turf/open/floor/carpet{
 	icon_state = "carpet-137"
@@ -997,6 +1303,10 @@
 /obj/machinery/door/airlock/public/glass{
 	dir = 4
 	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"CF" = (
+/obj/structure/fence/cut/large,
 /turf/open/floor/plating/asteroid/wasteplanet,
 /area/ruin/wasteplanet)
 "CK" = (
@@ -1009,20 +1319,29 @@
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "CP" = (
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/item/ammo_casing/shotgun/buckshot{
+	icon_state = "buckshot-empty";
+	pixel_y = -7;
+	pixel_x = -13;
+	projectile_type = null;
+	desc = "A 12-gauge buckshot shell. It is spent."
 	},
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-10"
 	},
 /area/ruin/wasteplanet)
 "CQ" = (
-/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/airlock/public/glass{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -1040,14 +1359,17 @@
 /obj/effect/gibspawner/generic/animal,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
+"CY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "CZ" = (
 /obj/effect/turf_decal/industrial/outline,
 /obj/structure/closet/cardboard,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/light/directional/east,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
@@ -1057,21 +1379,36 @@
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
+"Df" = (
+/obj/structure/toilet{
+	dir = 8;
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
 "Dv" = (
 /obj/effect/turf_decal/industrial/warning,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
-/area/ruin/wasteplanet)
-"Dx" = (
-/obj/structure/sign/poster/contraband/have_a_puff,
-/turf/closed/wall/r_wall/rust,
 /area/ruin/wasteplanet)
 "DD" = (
 /obj/structure/sign/poster/official/cleanliness,
 /turf/closed/wall/rust,
+/area/ruin/wasteplanet)
+"DE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "DG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1097,24 +1434,32 @@
 /obj/effect/decal/cleanable/oil/streak,
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
+"Eg" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
 "EF" = (
 /turf/closed/wall/rust,
 /area/ruin/wasteplanet)
 "EI" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/terminal,
-/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "ES" = (
 /obj/machinery/light/directional/south,
 /obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Fc" = (
@@ -1124,6 +1469,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Fq" = (
@@ -1132,25 +1480,33 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
-"FE" = (
-/obj/machinery/light/directional/south,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/ruin/wasteplanet)
 "FG" = (
 /turf/open/floor/carpet{
 	icon_state = "carpet-74"
 	},
 /area/ruin/wasteplanet)
+"FQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
 "FU" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
@@ -1164,14 +1520,23 @@
 /area/ruin/wasteplanet)
 "Gm" = (
 /obj/machinery/vending/cola/random,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Gt" = (
 /obj/structure/sign/poster/random,
 /turf/closed/wall/r_wall/rust,
+/area/ruin/wasteplanet)
+"GM" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "GO" = (
 /obj/effect/turf_decal/industrial/warning,
@@ -1193,10 +1558,10 @@
 	dir = 8
 	},
 /obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Hx" = (
@@ -1206,9 +1571,21 @@
 "Hy" = (
 /turf/template_noop,
 /area/template_noop)
+"HC" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "HG" = (
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -1220,12 +1597,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
-"Ii" = (
-/obj/machinery/door/airlock/public{
-	dir = 4
-	},
+"If" = (
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"Ii" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
@@ -1248,17 +1634,42 @@
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
+"Ix" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "ID" = (
 /obj/effect/gibspawner/generic/animal,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
+"IK" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "IR" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 1
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -1296,20 +1707,30 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "0-4"
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
 	},
 /turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"JD" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "JM" = (
 /obj/machinery/light/directional/south,
 /obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
@@ -1320,7 +1741,23 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"JW" = (
+/obj/structure/closet/emcloset/wall/directional/west,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "Ke" = (
 /obj/structure/table/wood/reinforced,
@@ -1342,6 +1779,25 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/wasteplanet)
+"Ku" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/wasteplanet,
+/area/ruin/wasteplanet)
+"Kv" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/dim/directional/north,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
 "Kx" = (
 /obj/effect/turf_decal/industrial/stand_clear{
 	dir = 4
@@ -1349,10 +1805,13 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /obj/effect/decal/cleanable/oil/streak,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/wasteplanet)
 "KD" = (
@@ -1388,6 +1847,12 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "LE" = (
@@ -1395,6 +1860,10 @@
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-46"
 	},
+/area/ruin/wasteplanet)
+"LI" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "LJ" = (
 /obj/machinery/light/directional/north,
@@ -1417,20 +1886,16 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating/asteroid/wasteplanet,
-/area/ruin/wasteplanet)
-"LT" = (
-/obj/effect/turf_decal/industrial/outline,
-/obj/structure/closet/cardboard,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "0-4"
 	},
-/obj/effect/spawner/lootdrop/donkpockets{
-	pixel_x = 4;
-	pixel_y = 4
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "LW" = (
 /obj/structure/table/wood/reinforced,
@@ -1439,10 +1904,11 @@
 	pixel_y = 36;
 	pixel_x = -10
 	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
 /turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
+"Ma" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "Mo" = (
 /turf/open/floor/plasteel/mono/dark,
@@ -1458,10 +1924,27 @@
 	icon_state = "carpet-203"
 	},
 /area/ruin/wasteplanet)
+"MG" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/carpet/donk{
+	icon_state = "donk_carpet-1"
+	},
+/area/ruin/wasteplanet)
 "MN" = (
-/obj/machinery/door/airlock/grunge,
 /obj/machinery/door/airlock/grunge{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
@@ -1473,13 +1956,13 @@
 "Nb" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/machinery/light/directional/north,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"Nf" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Nr" = (
@@ -1533,9 +2016,6 @@
 	pixel_y = 6
 	},
 /obj/machinery/light/directional/south,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "OG" = (
@@ -1556,10 +2036,7 @@
 "OQ" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
+	icon_state = "0-8"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -1567,12 +2044,33 @@
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/wasteplanet)
+"Pc" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "Pn" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -1592,7 +2090,8 @@
 	sheet_left = 1;
 	anchored = 1;
 	sheets = 10;
-	active = 1
+	active = 1;
+	power_gen = 50000
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
@@ -1635,22 +2134,14 @@
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "PV" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
 "PY" = (
 /obj/machinery/power/apc/auto_name/directional/west,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /obj/machinery/light/directional/north,
 /obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
@@ -1660,21 +2151,32 @@
 /area/ruin/wasteplanet)
 "Qg" = (
 /obj/machinery/door/window/eastleft,
-/obj/machinery/door/window/eastright,
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 4
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
-"Qu" = (
-/obj/machinery/light/dim/directional/west,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	icon_state = "4-8"
+"Qq" = (
+/obj/structure/fence{
+	dir = 1
 	},
+/turf/open/floor/plating/asteroid/wasteplanet,
+/area/ruin/wasteplanet)
+"Qu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/emcloset/wall/directional/west,
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Qy" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-8"
 	},
@@ -1691,10 +2193,7 @@
 "QO" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "0-4"
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -1714,9 +2213,6 @@
 /obj/structure/closet/cardboard,
 /obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/light/directional/east,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/effect/spawner/lootdrop/donkpockets{
 	pixel_x = 4;
 	pixel_y = 4
@@ -1728,9 +2224,6 @@
 /obj/structure/table/wood,
 /obj/item/storage/box/cups{
 	pixel_y = 7
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
@@ -1744,22 +2237,28 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating/asteroid/wasteplanet,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "Sa" = (
 /obj/machinery/vending/cola/random,
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "Si" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "0-1"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
 	},
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-2"
@@ -1772,6 +2271,12 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Ss" = (
@@ -1783,13 +2288,16 @@
 	pixel_y = -16
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/wasteplanet)
 "Sx" = (
 /obj/machinery/light/directional/north,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -1797,42 +2305,44 @@
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "SH" = (
+/obj/machinery/light/directional/north,
 /obj/item/ammo_casing/shotgun/buckshot{
 	icon_state = "buckshot-empty";
-	pixel_x = -4;
-	pixel_y = 7
-	},
-/obj/machinery/light/directional/north,
-/obj/structure/cable{
-	icon_state = "1-4"
+	pixel_y = 2;
+	pixel_x = -2;
+	projectile_type = null;
+	desc = "A 12-gauge buckshot shell. It is spent."
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "SI" = (
 /obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plating/asteroid/wasteplanet,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4{
+	dir = 4
+	},
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "SK" = (
 /obj/machinery/light/dim/directional/south,
 /obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 1
 	},
 /turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "SN" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
 /obj/structure/cable/yellow{
-	icon_state = "1-8"
+	icon_state = "0-8"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
@@ -1851,11 +2361,8 @@
 /area/ruin/wasteplanet)
 "SW" = (
 /obj/machinery/light/directional/south,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
@@ -1891,6 +2398,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/wasteplanet)
+"Um" = (
+/obj/structure/fence/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/wasteplanet,
+/area/ruin/wasteplanet)
 "Uo" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
@@ -1898,18 +2411,53 @@
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
+"UK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
 "UO" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable{
-	icon_state = "1-8"
+	icon_state = "1-2"
 	},
 /obj/structure/cable{
+	icon_state = "0-1"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"UW" = (
+/obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "UY" = (
 /turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
+"Vl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Vo" = (
 /obj/structure/chair/comfy/orange/corpo{
@@ -1925,16 +2473,34 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "VT" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/wasteplanet)
+"VW" = (
+/obj/machinery/door/airlock/public{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
 "VX" = (
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-21"
 	},
+/area/ruin/wasteplanet)
+"Wa" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "Wl" = (
 /turf/open/floor/carpet/donk{
@@ -1954,6 +2520,9 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/wasteplanet)
 "WH" = (
@@ -1963,7 +2532,13 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating/asteroid/wasteplanet,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood/waste,
 /area/ruin/wasteplanet)
 "WR" = (
 /obj/structure/chair/comfy/orange/corpo/directional/east,
@@ -1991,9 +2566,28 @@
 	icon_state = "donk_carpet-207"
 	},
 /area/ruin/wasteplanet)
+"Xy" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/directional/east,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
 "XO" = (
 /obj/structure/cable{
 	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -2008,10 +2602,36 @@
 /obj/item/paper_bin,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/wasteplanet)
+"YA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"YB" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/item/ammo_casing/shotgun/buckshot{
+	icon_state = "buckshot-empty";
+	pixel_y = -7;
+	pixel_x = -5;
+	projectile_type = null;
+	desc = "A 12-gauge buckshot shell. It is spent."
+	},
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
 "YD" = (
 /obj/machinery/vending/donksofttoyvendor,
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"YK" = (
 /obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "1-2"
+	},
+/obj/machinery/light/directional/east,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
@@ -2022,6 +2642,25 @@
 /turf/open/floor/carpet/donk{
 	icon_state = "donk_carpet-1"
 	},
+/area/ruin/wasteplanet)
+"YX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"Zb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/plasteel,
 /area/ruin/wasteplanet)
 "Zg" = (
 /obj/structure/table/reinforced,
@@ -2037,10 +2676,22 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
 	},
 /turf/open/floor/plasteel/white,
+/area/ruin/wasteplanet)
+"ZA" = (
+/obj/machinery/light/dim/directional/south,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4{
+	dir = 1
+	},
+/turf/open/floor/wood/waste,
+/area/ruin/wasteplanet)
+"ZC" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 "ZQ" = (
 /obj/structure/cable{
@@ -2049,7 +2700,16 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible/layer4,
 /turf/open/floor/plasteel,
+/area/ruin/wasteplanet)
+"ZU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/wasteplanet)
 
 (1,1,1) = {"
@@ -2242,12 +2902,12 @@ eX
 eX
 eX
 eX
-BS
-BS
-BS
-BS
-BS
-BS
+Qq
+Qq
+CF
+Qq
+Qq
+Um
 Hy
 "}
 (7,1,1) = {"
@@ -2263,7 +2923,7 @@ eX
 eX
 eX
 eX
-Dx
+Gt
 eX
 eX
 Sa
@@ -2280,7 +2940,7 @@ BS
 BS
 BS
 BS
-BS
+lZ
 Hy
 "}
 (8,1,1) = {"
@@ -2290,8 +2950,8 @@ fw
 eX
 eX
 io
-CK
-NF
+en
+Ix
 eE
 cQ
 CK
@@ -2303,9 +2963,9 @@ sz
 ch
 pf
 wf
-DD
-PV
-PQ
+EF
+cl
+eY
 PV
 eX
 BS
@@ -2313,7 +2973,7 @@ BS
 BS
 BS
 BS
-BS
+Ku
 Hy
 "}
 (9,1,1) = {"
@@ -2322,7 +2982,7 @@ fw
 fw
 eX
 eX
-Dv
+jE
 oO
 zD
 QF
@@ -2330,15 +2990,15 @@ bc
 dw
 Uh
 PS
-NU
+cF
 eX
 gg
-pW
+nj
 nv
 nv
 EF
-Ii
-EF
+cl
+UY
 Ii
 eX
 BS
@@ -2346,7 +3006,7 @@ BS
 BS
 BS
 BS
-BS
+Ku
 Hy
 "}
 (10,1,1) = {"
@@ -2366,12 +3026,12 @@ PS
 ES
 eX
 Ld
-pW
+nj
 xk
 vG
 EF
 jP
-EF
+Ma
 AA
 eX
 BS
@@ -2379,7 +3039,7 @@ BS
 BS
 BS
 BS
-BS
+Ku
 Hy
 "}
 (11,1,1) = {"
@@ -2388,7 +3048,7 @@ fw
 fw
 eX
 Gt
-dZ
+wz
 Il
 UY
 Kq
@@ -2399,7 +3059,7 @@ PS
 mi
 eX
 Jq
-pW
+nj
 ij
 ij
 EF
@@ -2412,7 +3072,7 @@ eX
 BS
 BS
 BS
-BS
+Cj
 Hy
 "}
 (12,1,1) = {"
@@ -2421,7 +3081,7 @@ fw
 fw
 eX
 eX
-Dv
+jE
 CS
 UY
 Kq
@@ -2429,10 +3089,10 @@ LO
 UY
 ST
 CX
-NU
+cF
 eX
 qe
-Ss
+ky
 NN
 sL
 EF
@@ -2445,7 +3105,7 @@ eX
 BS
 BS
 BS
-BS
+Ku
 Hy
 "}
 (13,1,1) = {"
@@ -2465,9 +3125,9 @@ xl
 rX
 Mp
 DM
-pW
+nj
 Ss
-pW
+ZC
 EF
 SH
 OL
@@ -2487,7 +3147,7 @@ fw
 fw
 eX
 Gt
-dZ
+wz
 Il
 DV
 Kq
@@ -2495,7 +3155,7 @@ UY
 LO
 ST
 PS
-NU
+cF
 eX
 HW
 iW
@@ -2506,7 +3166,7 @@ fG
 LE
 hM
 Jd
-na
+NJ
 yK
 Gm
 Qu
@@ -2520,7 +3180,7 @@ fw
 fw
 eX
 eX
-ef
+Nb
 Il
 LO
 Kq
@@ -2528,7 +3188,7 @@ UY
 UY
 TX
 PS
-NU
+cF
 eX
 Cv
 gc
@@ -2561,18 +3221,18 @@ vC
 Pw
 aE
 xl
-FE
+ES
 eX
 LJ
-zp
+JW
 pW
 pW
 EF
-HG
+LI
 BK
 Xt
 Vo
-HG
+YB
 EF
 EF
 EF
@@ -2589,16 +3249,16 @@ eX
 Hw
 zs
 WG
+Pc
 Ba
-vW
 Kx
 Ba
 LD
 ZQ
 eX
 pq
-pW
-pW
+mf
+Wa
 pW
 EF
 od
@@ -2614,49 +3274,49 @@ eX
 Hy
 "}
 (18,1,1) = {"
-fw
+BS
 fw
 fw
 eX
 eX
 KD
-NU
+hH
 ID
-LK
-NU
+Ap
+fE
 Ny
 en
 en
 vY
 eX
 uB
-Ss
-pW
+ZU
+aA
 Py
 EF
 Tv
-fv
+NJ
 wj
 NJ
 Ge
 Hx
 gK
 aJ
-wj
+gx
 eX
 Hy
 "}
 (19,1,1) = {"
-fw
-fw
-fw
+BS
+BS
+BS
 eX
 eX
 Sx
 gM
 Lq
-fE
-NU
+GM
+aV
 wz
 Qc
 OG
@@ -2680,20 +3340,20 @@ eX
 Hy
 "}
 (20,1,1) = {"
-fw
-fw
-fw
+BS
+BS
+BS
 Bp
 os
 NU
-LT
+zv
 fE
-LK
+Ap
 zv
 BO
 DW
 DG
-mN
+fy
 jU
 eX
 EF
@@ -2701,10 +3361,10 @@ EF
 EF
 EF
 XO
-zK
-dB
-fE
-fE
+uM
+nc
+HC
+YA
 EF
 xT
 ry
@@ -2713,48 +3373,48 @@ eX
 Hy
 "}
 (21,1,1) = {"
-fw
-fw
-fw
+BS
+BS
+BS
 mo
 sy
 dB
-LT
+zv
 LK
-fE
-LT
+Vl
+zv
 jE
 dI
 fk
 ts
 AH
 JO
-zK
+Zb
 UO
-zK
-zK
-dB
+uM
+hZ
+If
 VT
 zw
 Mo
-fE
+pD
 An
-wj
+FQ
 oP
 LW
 eX
 Hy
 "}
 (22,1,1) = {"
-fw
-fw
-fw
+BS
+BS
+BS
 iY
 fE
 fE
 RC
 jH
-zK
+If
 CZ
 wz
 Th
@@ -2770,18 +3430,18 @@ fE
 Ke
 WR
 Ks
-fE
+il
 EF
 IR
 Si
-YQ
+MG
 eX
 Hy
 "}
 (23,1,1) = {"
-fw
-fw
-fw
+BS
+BS
+BS
 eX
 eX
 eX
@@ -2803,7 +3463,7 @@ fE
 Wr
 pv
 OU
-fE
+pD
 EF
 WH
 EF
@@ -2812,21 +3472,21 @@ eX
 Hy
 "}
 (24,1,1) = {"
-fw
+BS
 fw
 fw
 gv
 bV
 rU
-uH
+YX
 ev
 hv
 uH
 BZ
 eX
 Pn
-zK
-zK
+kY
+AU
 dB
 Mo
 Mo
@@ -2836,16 +3496,16 @@ fE
 vJ
 Mo
 vJ
-fE
+pD
 EF
 RT
-BS
-BS
+NJ
+NJ
 eX
 Hy
 "}
 (25,1,1) = {"
-Hy
+fw
 fw
 fw
 eX
@@ -2857,28 +3517,28 @@ Xa
 sn
 vM
 eX
-NU
+hH
+ez
+ex
+ex
+Nf
+ex
+ex
+aV
+mP
 fE
 fE
 fE
-fE
-fE
-fE
-fE
-fE
-fE
-fE
-fE
-fE
+il
 EF
-RT
-BS
-BS
+Kv
+NJ
+JD
 eX
 Hy
 "}
 (26,1,1) = {"
-Hy
+fw
 fw
 fw
 eX
@@ -2890,28 +3550,28 @@ Bf
 cv
 Tp
 eX
-NU
+hH
 BB
 Xj
 ae
-fE
+CY
 BB
 Xj
 ae
-fE
+tc
 dm
 Wl
 VX
-fE
+pD
 EF
 LP
-BS
-BS
+NJ
+NJ
 eX
 Hy
 "}
 (27,1,1) = {"
-Hy
+fw
 fw
 fw
 eX
@@ -2927,57 +3587,57 @@ Fc
 Rh
 YQ
 qs
-fE
+CY
 qs
 by
 vu
-fE
+tc
 lb
 hc
 MT
-fE
+pD
 EF
-RT
-BS
-BS
+Kv
+rF
+ZA
 eX
 Hy
 "}
 (28,1,1) = {"
-Hy
+fw
 fw
 fw
 eX
 xx
 kj
-zK
-zK
+fE
+fE
 kj
-zK
+fE
 OQ
 eX
 cw
-lP
-zK
-zK
-zK
-zK
-zK
-zK
-zK
-zK
-zK
-zK
+kF
+hZ
+Xy
+DE
+dv
+dv
+YK
+UW
+IK
+dv
+YK
 zK
 xh
 SI
-BS
-BS
+UK
+fx
 eX
 Hy
 "}
 (29,1,1) = {"
-Hy
+fw
 fw
 fw
 eX
@@ -3011,7 +3671,7 @@ Hy
 "}
 (30,1,1) = {"
 Hy
-Hy
+fw
 fw
 fw
 fw
@@ -3024,7 +3684,7 @@ fw
 eX
 PY
 FU
-SW
+jb
 eX
 fw
 fw
@@ -3055,9 +3715,9 @@ fw
 fw
 fw
 eX
-PV
+UY
 PQ
-PV
+Eg
 eX
 fw
 fw
@@ -3088,9 +3748,9 @@ fw
 fw
 fw
 eX
-Ii
+VW
 EF
-Ii
+VW
 eX
 fw
 fw
@@ -3121,9 +3781,9 @@ fw
 fw
 fw
 eX
-jP
+cC
 EF
-AA
+Df
 eX
 fw
 Hy
